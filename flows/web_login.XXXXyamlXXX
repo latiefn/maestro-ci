@@ -1,0 +1,29 @@
+# url: https://admin-staging.gdt-titan.id/
+# ---
+# - launchApp
+# - assertVisible: Select Your Login Method
+# - tapOn:
+#     text: "Login with SSO"
+# - assertVisible: "Email, phone, or Skype"
+# - tapOn: "Email, phone, or Skype"
+# - inputText:
+#     text: "sqatest1@gooddoctor.co.id"
+# - tapOn: Next
+# - assertVisible: Password
+# - inputText:
+#     text: "GoodDoctor@2025"
+# - tapOn: Sign in
+# - tapOn:
+#     text: "Yes"
+# - assertVisible: Members
+
+# - tapOn: "Search Member Code"
+# - inputText: "AutomationTest01"
+# - tapOn: "auto"
+# - tapOn:
+#     below: "Action"
+#     index: 0
+# - assertVisible: "Unlink"
+# - tapOn: "Unlink"
+# - waitForAnimationToEnd:
+#     timeout: 5000
