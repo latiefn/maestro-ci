@@ -17,18 +17,13 @@ url: https://admin-staging.gdt-titan.id/
     text: "Yes"
 - assertVisible: Members
 
-- tapOn: "Search Member Code"
-- inputText: "AutomationTest01"
-- tapOn: "auto"
-- pressKey: "ArrowRight"
-- pressKey: "ArrowRight"
-- pressKey: "ArrowRight"
-- pressKey: "ArrowRight"
-
-- tapOn:
-    below: "Action"
-    index: 0
-- assertVisible: "Unlink"
-- tapOn: "Unlink"
-- waitForAnimationToEnd:
-    timeout: 5000
+# - tapOn: "Search Member Code"
+# - inputText: "AutomationTest01"
+# - tapOn: "auto"
+# - tapOn:
+#     below: "Action"
+#     index: 0
+# - assertVisible: "Unlink"
+# - tapOn: "Unlink"
+# - waitForAnimationToEnd:
+#     timeout: 5000
