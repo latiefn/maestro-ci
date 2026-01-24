@@ -17,9 +17,8 @@ pipeline {
         stage('ADB Connect') {
             steps {
                 sh '''
-                    adb kill-server || true
                     adb start-server
-                    adb connect ${ADB_HOST}:${ADB_PORT} || true
+                    adb connect 192.168.1.5:5555 || true
                     adb devices
                 '''
             }
