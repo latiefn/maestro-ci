@@ -1,0 +1,6 @@
+appId: com.pajk.idpersonaldoc.staging
+---
+- launchApp:
+    clearState: true
+- runFlow: mobile/login.yaml
+- runFlow: mobile/consult.yaml

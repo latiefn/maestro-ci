@@ -1,0 +1,3 @@
+appId: com.pajk.idpersonaldoc.staging
+---
+- assertVisible: "Konsultasi Dengan Dokter Kami"

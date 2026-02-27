@@ -1,15 +1,5 @@
 appId: com.pajk.idpersonaldoc.staging
 ---
-- clearState
-- launchApp
-- assertVisible: "Masuk"
-- tapOn: "Masuk"
-- assertVisible: "Masukkan Nomor Telepon"
-- tapOn: "Masukkan Nomor Telepon"
-- inputText: "88880005555"
-- tapOn: "Lanjutkan"
-- inputText: "0000"
-- tapOn: "Kirim"
 - assertVisible: "Konsultasi Dengan Dokter Kami"
 - tapOn: "Chat Dokter Umum"
 - scrollUntilVisible:
