@@ -1,4 +1,4 @@
-url: https://admin-staging.gdt-titan.id/
+url: ---
 ---
 - launchApp
 - assertVisible: Select Your Login Method
